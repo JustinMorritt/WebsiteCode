@@ -1,0 +1,223 @@
+
+body
+{
+font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
+margin:5% 10%;
+background-color:black;
+}
+	#Wrap
+	{
+	background-color:#C4FCB8;
+	border:5px grey solid;
+	}
+
+	.Navbar
+	{
+		text-shadow:8px 8px 4px black;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 30px;
+		padding: 10px;
+		font-size:15pt;
+		text-align: center;
+		background-color:white;
+		word-spacing:90pt;
+	}
+	.Navbar li
+	{
+	display: inline 
+	}
+	.Navbar:link
+	{
+		background-color:black;
+		
+		}
+	.Navbar:visited
+	{
+		background-color:black;
+
+		}
+	.Navbar:hover
+	{
+	background-color:black;
+	text-shadow:8px 8px 4px grey;
+
+	}
+	.Navbar:focus
+	{
+	background-color:black;
+	text-shadow:8px 8px 4px grey;
+
+	}
+	.Navbar:active
+	{
+		background-color:black;
+	}
+	
+	.Navbar a:link
+	{
+	text-decoration: none;
+	color:#0099FF;
+	}
+	.Navbar a:visited
+	{
+	text-decoration: none;
+	color:#0099FF;
+	}
+	.Navbar a:hover
+	{
+	text-decoration: none;
+	color:white;
+	}
+	.Navbar a:focus
+	{
+	text-decoration: none;
+	color:yellow;
+	}
+	.Navbar a:active
+	{
+	text-decoration: none;
+	color:purple;
+	}
+	
+	
+	#wierdpic img
+	{
+		display: inline;
+	}
+	#wierdpic
+	{
+		border:15px solid #00FF40;
+	}
+	
+	#Title
+	{
+		text-align:center;
+		
+		text-shadow:8px 8px 9px black;
+		font-size:20pt;
+		font-family:tahoma;
+		color:red;
+	}
+	h2
+	{
+		font-size:11pt;
+		font-family:tahoma;
+		color :green;
+		font-weight:normal;
+		text-transform:uppercase;
+	}
+	.pink   
+	{
+		color:pink;
+	}
+	p
+	{
+		border:thin red solid;
+		letter-spacing:0.6em;
+	}
+	ul
+	{
+		font-size:13pt;
+	}
+	li
+	{
+		padding-top:0.5em;
+	}
+	#mainpic
+	{
+		cursor:crosshair;
+		border:15px double red;
+		display:block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	#mainpic:link
+	{
+		border:15px double yellow;
+	}
+	#mainpic:visited
+	{
+		border:15px double orange;
+	}
+	#mainpic:hover
+	{
+		border:15px double purple;
+	}
+	#mainpic:active
+	{
+		border:15px dotted black;
+	}
+
+	
+
+	.footer a:link
+	{
+	text-decoration: none;
+	color:black;
+	}
+	.footer a:visited
+	{
+	text-decoration: none;
+	color:#0099FF;
+	}
+	.footer a:hover
+	{
+	text-decoration: none;
+	color:white;
+	}
+	.footer a:focus
+	{
+	text-decoration: none;
+	color:yellow;
+	}
+	.footer a:active
+	{
+	text-decoration: none;
+	color:purple;
+	}
+	
+
+	.footer
+	{
+		text-shadow:8px 8px 4px black;
+		position: fixed; 
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 30px;
+		padding: 10px;
+		font-size:15pt;
+		text-align: center;
+		background-color:white;
+	}
+	.footer:link
+	{
+	background-color:black;
+	
+	}
+	.footer:visited
+	{
+	background-color:#0099FF;
+
+	}
+	.footer:hover
+	{
+	background-color:black;
+	text-shadow:8px 8px 4px grey;
+
+	}
+	.footer:focus
+	{
+		background-color:black;
+		text-shadow:8px 8px 4px grey;
+
+		}
+		.footer:active
+	{
+		background-color:black;
+		}
+	
+	
