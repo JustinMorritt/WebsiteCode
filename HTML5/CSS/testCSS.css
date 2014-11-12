@@ -1,14 +1,30 @@
 
+
+/*  COLOR SCHEME
+dark grey - #25242C
+light Grey - #32313B
+pink - #EC3F8C
+baby blue - #39B1C6
+green #1FD26A
+Credit goes to http://mashastudio.net/ .. thanks .
+*/
+
+
+
+
+
+
+
 body
 {
 font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
 margin:5% 10%;
-background-color:black;
+background-color:#25242C;
 }
 	#Wrap
 	{
-	background-color:#C4FCB8;
-	border:5px grey solid;
+	background-color:#32313B;
+	
 	}
 
 	.Navbar
@@ -22,7 +38,7 @@ background-color:black;
 		padding: 10px;
 		font-size:15pt;
 		text-align: center;
-		background-color:white;
+		background-color:#34333F;
 		word-spacing:90pt;
 	}
 	.Navbar li
@@ -36,26 +52,28 @@ background-color:black;
 		}
 	.Navbar:visited
 	{
-		background-color:black;
+		background-color:#1E1E24;
 
 		}
 	.Navbar:hover
 	{
-	background-color:black;
+	background-color:#1E1E24;
 	text-shadow:8px 8px 4px grey;
 
 	}
 	.Navbar:focus
 	{
-	background-color:black;
+	background-color:#1E1E24;
 	text-shadow:8px 8px 4px grey;
 
 	}
 	.Navbar:active
 	{
-		background-color:black;
+		background-color:#1E1E24;
 	}
 	
+	
+	/* Links on nav bar ---V   */
 	.Navbar a:link
 	{
 	text-decoration: none;
@@ -64,22 +82,22 @@ background-color:black;
 	.Navbar a:visited
 	{
 	text-decoration: none;
-	color:#0099FF;
+	color:#1FD26A;
 	}
 	.Navbar a:hover
 	{
 	text-decoration: none;
-	color:white;
+	color:#1FD26A;
 	}
 	.Navbar a:focus
 	{
 	text-decoration: none;
-	color:yellow;
+	color:#39B1C6;
 	}
 	.Navbar a:active
 	{
 	text-decoration: none;
-	color:purple;
+	color:#EC3F8C;
 	}
 	
 	
@@ -156,27 +174,27 @@ background-color:black;
 	.footer a:link
 	{
 	text-decoration: none;
-	color:black;
+	color:#1FD26A;
 	}
 	.footer a:visited
 	{
 	text-decoration: none;
-	color:#0099FF;
+	color:#1FD26A;
 	}
 	.footer a:hover
 	{
 	text-decoration: none;
-	color:white;
+	color:#39B1C6;
 	}
 	.footer a:focus
 	{
 	text-decoration: none;
-	color:yellow;
+	color:#39B1C6;
 	}
 	.footer a:active
 	{
 	text-decoration: none;
-	color:purple;
+	color:#EC3F8C;
 	}
 	
 
@@ -191,33 +209,33 @@ background-color:black;
 		padding: 10px;
 		font-size:15pt;
 		text-align: center;
-		background-color:white;
+		background-color:#34333F;
 	}
 	.footer:link
 	{
-	background-color:black;
+	background-color:#1E1E24;
 	
 	}
 	.footer:visited
 	{
-	background-color:#0099FF;
+	background-color:#1E1E24;
 
 	}
 	.footer:hover
 	{
-	background-color:black;
+	background-color:#1E1E24;
 	text-shadow:8px 8px 4px grey;
 
 	}
 	.footer:focus
 	{
-		background-color:black;
+		background-color:#1E1E24;
 		text-shadow:8px 8px 4px grey;
 
 		}
 		.footer:active
 	{
-		background-color:black;
+		background-color:#1E1E24;
 		}
 	
 	
