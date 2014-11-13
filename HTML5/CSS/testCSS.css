@@ -15,7 +15,7 @@ Credit goes to http://mashastudio.net/ .. thanks .
 
 
 
-body
+#Main
 {
 font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
 margin:5% 10%;
@@ -137,26 +137,26 @@ background-color:#25242C;
 	#mainpic
 	{
 		cursor:crosshair;
-		border:15px double red;
+		border:5px solid #39B1C6;
 		display:block;
 		margin-right: auto;
 		margin-left: auto;
 	}
 	#mainpic:link
 	{
-		border:15px solid #39B1C6;
+		border:5px solid #39B1C6;
 	}
 	#mainpic:visited
 	{
-		border:15px solid #39B1C6;
+		border:5px solid #39B1C6;
 	}
 	#mainpic:hover
 	{
-		border:15px solid purple;
+		border:5px solid #FF8000;
 	}
 	#mainpic:active
 	{
-		border:15px solid black;
+		border:5px solid #FF8000;
 	}
 
 	
@@ -223,9 +223,48 @@ background-color:#25242C;
 		text-shadow:8px 8px 4px grey;
 
 		}
-		.footer:active
+	.footer:active
 	{
 		background-color:#1E1E24;
 		}
 	
+	/*PROJECTS LINKS*/
+	.Projects li
+	{
+		text-shadow:8px 8px 4px black;
+		padding: 10px;
+		font-size:15pt;
+		text-align: center;
+		background-color:#32313B;
+		list-style: none;
+	}
+		.Projects a:link
+	{
+	text-decoration: none;
+	color:#0099FF;
+	}
+	.Projects a:visited
+	{
+	text-decoration: none;
+	color:#1FD26A;
+	}
+	.Projects a:hover
+	{
+	text-decoration: none;
+	color:#39B1C6;
+	}
+	.Projects a:focus
+	{
+	text-decoration: none;
+	color:#39B1C6;
+	}
+	.Projects a:active
+	{
 	
+	}
+#canvasContainer
+{
+	border:#39B1C6 8px solid;
+	width:744px; 
+	margin: 20px auto;
+}
