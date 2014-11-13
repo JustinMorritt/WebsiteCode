@@ -27,6 +27,7 @@ background-color:#25242C;
 	
 	}
 
+	
 	.Navbar
 	{
 		text-shadow:8px 8px 4px black;
@@ -40,6 +41,7 @@ background-color:#25242C;
 		text-align: center;
 		background-color:#34333F;
 		word-spacing:90pt;
+		border-bottom: 1pt solid white;
 	}
 	.Navbar li
 	{
@@ -200,6 +202,7 @@ background-color:#25242C;
 		font-size:15pt;
 		text-align: center;
 		background-color:#34333F;
+		border-top: 1pt solid white;
 	}
 	.footer:link
 	{
