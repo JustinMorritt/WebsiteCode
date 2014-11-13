@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Match Game !</title>
+		<link rel="stylesheet" type="text/css" href="../CSS/testCSS.css">
+		<script type="text/javascript" src="Js/jquery-1.11.1.js"></script>
+	    <script type="text/javascript" src="Js/MatchV2.js"></script> 
+				
+	</head>
+	<body id="Main">
+		<div class="Navbar">
+			  <li><a href="../index.html">Home</a></li>
+			  <li><a href="../Projects/projects.html">Projects</a></li>
+			  <li><a href="../Contact/contact.html">Contact</a></li>
+			  <li><a href="../About/about.html">About</a></li>
+		</div>
+		<div id="Wrap">
+			<div id="Title">
+					<h1>Final <span id="Jayem">Mario</span> </h1>
+			</div>
+			
+			<div class="Projects">
+				  <li><a href="../Projects/projects.html">Back</a></li>
+			</div>
+			
+			<div class="footer">
+				<a href="http://triosdevelopers.com/J.Morritt" target="_blank">
+				Copyright © triosdevelopers.com/J.Morritt
+				</a>
+			</div>
+		
+
+			<div id="canvasContainer" >
+			<canvas id="myCanvas" width="744" height="448"></canvas>
+			</div>
+		</div> <!-- END WRAP -->
+		
+		
+		<audio id = "backgroundMusic" loop>
+		<source src="SFX/MatchGameMusic.wav">
+		</audio>
+		
+		<audio id = "arrowMove" >
+		<source src="SFX/map_move_to_spot.wav">
+		</audio>
+		
+		<audio id = "WinSound" >
+		<source src="SFX/levelWon.wav">
+		</audio>
+		
+		<audio id = "LoseSound" >
+		<source src="SFX/levelLost.wav">
+		</audio>
+		
+		<audio id = "Match" >
+		<source src="SFX/match.wav">
+		</audio>
+		
+		<audio id = "NoMatch" >
+		<source src="SFX/noMatch.wav">
+		</audio>
+		
+	</body>
+</html>
