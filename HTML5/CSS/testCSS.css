@@ -3,7 +3,7 @@
 /*  COLOR SCHEME
 dark grey - #25242C
 light Grey - #32313B
-pink - #EC3F8C
+pink - #FF8000
 baby blue - #39B1C6
 green #1FD26A
 Credit goes to http://mashastudio.net/ .. thanks .
@@ -43,7 +43,7 @@ background-color:#25242C;
 	}
 	.Navbar li
 	{
-	display: inline 
+	display: inline ;
 	}
 	.Navbar:link
 	{
@@ -87,7 +87,7 @@ background-color:#25242C;
 	.Navbar a:hover
 	{
 	text-decoration: none;
-	color:#1FD26A;
+	color:#39B1C6;
 	}
 	.Navbar a:focus
 	{
@@ -97,45 +97,32 @@ background-color:#25242C;
 	.Navbar a:active
 	{
 	text-decoration: none;
-	color:#EC3F8C;
+	color:#FF8000;
 	}
 	
 	
 	#wierdpic img
 	{
-		display: inline;
+		
 	}
 	#wierdpic
 	{
-		border:15px solid #00FF40;
+		
 	}
 	
 	#Title
 	{
 		text-align:center;
-		
 		text-shadow:8px 8px 9px black;
 		font-size:20pt;
 		font-family:tahoma;
-		color:red;
+		color:#39B1C6;
 	}
-	h2
+	#Jayem
 	{
-		font-size:11pt;
-		font-family:tahoma;
-		color :green;
-		font-weight:normal;
-		text-transform:uppercase;
+	color: #FF8000;
 	}
-	.pink   
-	{
-		color:pink;
-	}
-	p
-	{
-		border:thin red solid;
-		letter-spacing:0.6em;
-	}
+
 	ul
 	{
 		font-size:13pt;
@@ -144,6 +131,9 @@ background-color:#25242C;
 	{
 		padding-top:0.5em;
 	}
+	
+	
+	
 	#mainpic
 	{
 		cursor:crosshair;
@@ -154,19 +144,19 @@ background-color:#25242C;
 	}
 	#mainpic:link
 	{
-		border:15px double yellow;
+		border:15px solid #39B1C6;
 	}
 	#mainpic:visited
 	{
-		border:15px double orange;
+		border:15px solid #39B1C6;
 	}
 	#mainpic:hover
 	{
-		border:15px double purple;
+		border:15px solid purple;
 	}
 	#mainpic:active
 	{
-		border:15px dotted black;
+		border:15px solid black;
 	}
 
 	
@@ -194,7 +184,7 @@ background-color:#25242C;
 	.footer a:active
 	{
 	text-decoration: none;
-	color:#EC3F8C;
+	color:#FF8000;
 	}
 	
 
