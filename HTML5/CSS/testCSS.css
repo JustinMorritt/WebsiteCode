@@ -19,7 +19,7 @@
 #Main
 {
 	font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
-	margin:7% 0%;
+	margin:5% 0%;
 	background-color:#25242C;
 }
 .Wrap
@@ -27,8 +27,7 @@
 	/*background-color:#32313B;*/
 	background-image: url("../Pics/bg.png");
 	border-bottom: 20pt solid #25242C;
-	border-top: 10pt solid #25242C;
-	
+	border-top: solid #25242C;
 }
 
 
@@ -45,7 +44,8 @@
 	text-align: center;
 	background-color:#34333F;
 	word-spacing:90pt;
-	border-bottom: 1pt solid white;
+	/*border-bottom: 1pt solid white;*/
+	
 }
 .Navbar li
 {
@@ -119,20 +119,22 @@ display: inline ;
 	font-size:20pt;
 	font-family:tahoma;
 	color:#39B1C6;
+	
 }
 #Jayem
 {
 	color: #FF8000;
 }
 
+/*SUB HEADING CONTENT*/
 .pageSubIntro
 {
 
 }
 .pageSubIntro h2
 {
-	border-bottom: 1pt solid #39B1C6;
-	border-top: 1pt solid #39B1C6;
+	border-bottom: 1px solid #39B1C6;
+	border-top: 1px solid #39B1C6;
 	font-size:15pt;
 	color:white;
 	text-align:center;
@@ -142,7 +144,17 @@ display: inline ;
 	margin-right:auto;
 	width:60%;
 }
-
+.pageSubIntro h3
+{
+	font-size:15pt;
+	color:white;
+	text-align:center;
+	padding: 30pt;
+	text-shadow:8px 8px 9px black;
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+}
 
 #mainpic
 {
@@ -169,8 +181,21 @@ display: inline ;
 	border:5px solid #FF8000;
 }
 
-
-
+/*FOOTER STUFF*/
+.footer
+{
+	text-shadow:8px 8px 4px black;
+	position: fixed; 
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 30px;
+	padding: 10px;
+	font-size:15pt;
+	text-align: center;
+	background-color:#34333F;
+	/*border-top: 1pt solid white;*/
+}
 .footer a:link
 {
 	text-decoration: none;
@@ -195,22 +220,6 @@ display: inline ;
 {
 	text-decoration: none;
 	color:#FF8000;
-}
-
-
-.footer
-{
-	text-shadow:8px 8px 4px black;
-	position: fixed; 
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 30px;
-	padding: 10px;
-	font-size:15pt;
-	text-align: center;
-	background-color:#34333F;
-	border-top: 1pt solid white;
 }
 .footer:link
 {
@@ -244,7 +253,6 @@ display: inline ;
 	padding: 10px;
 	font-size:15pt;
 	text-align: center;
-	background-color:#32313B;
 	list-style: none;
 }
 .Projects a:link
@@ -279,3 +287,17 @@ display: inline ;
 	width:744px; 
 	margin: 20px auto;
 }
+
+
+#circle
+{
+	display:block;
+	font-size:15pt;
+	color:white;
+	text-align:center;
+	padding: 10pt;
+	text-shadow:8px 8px 9px black;
+	margin-left:auto;
+	margin-right: auto;
+}
+
