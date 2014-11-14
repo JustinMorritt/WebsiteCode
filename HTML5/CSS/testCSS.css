@@ -1,12 +1,13 @@
 
 
 /*  COLOR SCHEME
-dark grey - #25242C
-light Grey - #32313B
-pink - #FF8000
-baby blue - #39B1C6
-green #1FD26A
-Credit goes to http://mashastudio.net/ .. thanks .
+	wrap image background-image: url("../Pics/bg.png");
+	dark grey - #25242C
+	light Grey - #32313B
+	pink - #FF8000
+	baby blue - #39B1C6
+	green #1FD26A
+	Credit goes to http://mashastudio.net/ .. thanks .
 */
 
 
@@ -17,254 +18,261 @@ Credit goes to http://mashastudio.net/ .. thanks .
 
 #Main
 {
-font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
-margin:5% 10%;
-background-color:#25242C;
+	font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
+	margin:7% 0%;
+	background-color:#25242C;
 }
-	#Wrap
-	{
-	background-color:#32313B;
+.Wrap
+{
+	/*background-color:#32313B;*/
+	background-image: url("../Pics/bg.png");
+	border-bottom: 20pt solid #25242C;
+	border-top: 10pt solid #25242C;
 	
-	}
+}
 
-	
-	.Navbar
-	{
-		text-shadow:8px 8px 4px black;
-		position: fixed;
-		top: 0;
-		left: 0;
-		right: 0;
-		height: 30px;
-		padding: 10px;
-		font-size:15pt;
-		text-align: center;
-		background-color:#34333F;
-		word-spacing:90pt;
-		border-bottom: 1pt solid white;
-	}
-	.Navbar li
-	{
-	display: inline ;
-	}
-	.Navbar:link
-	{
-		background-color:black;
-		
-		}
-	.Navbar:visited
-	{
-		background-color:#1E1E24;
 
-		}
-	.Navbar:hover
-	{
+.Navbar
+{
+	text-shadow:8px 8px 4px black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 30px;
+	padding: 10px;
+	font-size:15pt;
+	text-align: center;
+	background-color:#34333F;
+	word-spacing:90pt;
+	border-bottom: 1pt solid white;
+}
+.Navbar li
+{
+display: inline ;
+}
+.Navbar:link
+{
+	background-color:black;
+}
+.Navbar:visited
+{
+	background-color:#1E1E24;
+}
+.Navbar:hover
+{
 	background-color:#1E1E24;
 	text-shadow:8px 8px 4px grey;
-
-	}
-	.Navbar:focus
-	{
+}
+.Navbar:focus
+{
 	background-color:#1E1E24;
 	text-shadow:8px 8px 4px grey;
+}
+.Navbar:active
+{
+	background-color:#1E1E24;
+}
 
-	}
-	.Navbar:active
-	{
-		background-color:#1E1E24;
-	}
-	
-	
-	/* Links on nav bar ---V   */
-	.Navbar a:link
-	{
+
+/* Links on nav bar ---V   */
+.Navbar a:link
+{
 	text-decoration: none;
 	color:#0099FF;
-	}
-	.Navbar a:visited
-	{
+}
+.Navbar a:visited
+{
 	text-decoration: none;
 	color:#1FD26A;
-	}
-	.Navbar a:hover
-	{
+}
+.Navbar a:hover
+{
 	text-decoration: none;
 	color:#39B1C6;
-	}
-	.Navbar a:focus
-	{
+}
+.Navbar a:focus
+{
 	text-decoration: none;
 	color:#39B1C6;
-	}
-	.Navbar a:active
-	{
+}
+.Navbar a:active
+{
 	text-decoration: none;
 	color:#FF8000;
-	}
-	
-	
-	#wierdpic img
-	{
-		
-	}
-	#wierdpic
-	{
-		
-	}
-	
-	#Title
-	{
-		text-align:center;
-		text-shadow:8px 8px 9px black;
-		font-size:20pt;
-		font-family:tahoma;
-		color:#39B1C6;
-	}
-	#Jayem
-	{
+}
+
+
+#wierdpic img
+{
+
+}
+#wierdpic
+{
+	padding: 20pt;
+}
+
+#Title
+{
+	text-align:center;
+	text-shadow:8px 8px 9px black;
+	font-size:20pt;
+	font-family:tahoma;
+	color:#39B1C6;
+}
+#Jayem
+{
 	color: #FF8000;
-	}
+}
 
-	ul
-	{
-		font-size:13pt;
-	}
-	li
-	{
-		padding-top:0.5em;
-	}
-	
-	
-	
-	#mainpic
-	{
-		cursor:crosshair;
-		border:5px solid #39B1C6;
-		display:block;
-		margin-right: auto;
-		margin-left: auto;
-	}
-	#mainpic:link
-	{
-		border:5px solid #39B1C6;
-	}
-	#mainpic:visited
-	{
-		border:5px solid #39B1C6;
-	}
-	#mainpic:hover
-	{
-		border:5px solid #FF8000;
-	}
-	#mainpic:active
-	{
-		border:5px solid #FF8000;
-	}
+.pageSubIntro
+{
 
-	
+}
+.pageSubIntro h2
+{
+	border-bottom: 1pt solid #39B1C6;
+	border-top: 1pt solid #39B1C6;
+	font-size:15pt;
+	color:white;
+	text-align:center;
+	padding: 30pt;
+	text-shadow:8px 8px 9px black;
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+}
 
-	.footer a:link
-	{
+
+#mainpic
+{
+	cursor:crosshair;
+	border:5px solid #39B1C6;
+	display:block;
+	margin-right: auto;
+	margin-left: auto;
+}
+#mainpic:link
+{
+	border:5px solid #39B1C6;
+}
+#mainpic:visited
+{
+	border:5px solid #39B1C6;
+}
+#mainpic:hover
+{
+	border:5px solid #FF8000;
+}
+#mainpic:active
+{
+	border:5px solid #FF8000;
+}
+
+
+
+.footer a:link
+{
 	text-decoration: none;
 	color:#1FD26A;
-	}
-	.footer a:visited
-	{
+}
+.footer a:visited
+{
 	text-decoration: none;
 	color:#1FD26A;
-	}
-	.footer a:hover
-	{
+}
+.footer a:hover
+{
 	text-decoration: none;
 	color:#39B1C6;
-	}
-	.footer a:focus
-	{
+}
+.footer a:focus
+{
 	text-decoration: none;
 	color:#39B1C6;
-	}
-	.footer a:active
-	{
+}
+.footer a:active
+{
 	text-decoration: none;
 	color:#FF8000;
-	}
-	
+}
 
-	.footer
-	{
-		text-shadow:8px 8px 4px black;
-		position: fixed; 
-		bottom: 0;
-		left: 0;
-		right: 0;
-		height: 30px;
-		padding: 10px;
-		font-size:15pt;
-		text-align: center;
-		background-color:#34333F;
-		border-top: 1pt solid white;
-	}
-	.footer:link
-	{
-	background-color:#1E1E24;
-	
-	}
-	.footer:visited
-	{
-	background-color:#1E1E24;
 
-	}
-	.footer:hover
-	{
+.footer
+{
+	text-shadow:8px 8px 4px black;
+	position: fixed; 
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 30px;
+	padding: 10px;
+	font-size:15pt;
+	text-align: center;
+	background-color:#34333F;
+	border-top: 1pt solid white;
+}
+.footer:link
+{
+	background-color:#1E1E24;
+}
+.footer:visited
+{
+	background-color:#1E1E24;
+}
+.footer:hover
+{
+	background-color:#1E1E24;
+	text-shadow:8px 8px 4px grey;
+}
+.footer:focus
+{
 	background-color:#1E1E24;
 	text-shadow:8px 8px 4px grey;
 
 	}
-	.footer:focus
-	{
-		background-color:#1E1E24;
-		text-shadow:8px 8px 4px grey;
-
-		}
-	.footer:active
-	{
-		background-color:#1E1E24;
-		}
-	
-	/*PROJECTS LINKS*/
-	.Projects li
-	{
-		text-shadow:8px 8px 4px black;
-		padding: 10px;
-		font-size:15pt;
-		text-align: center;
-		background-color:#32313B;
-		list-style: none;
+.footer:active
+{
+	background-color:#1E1E24;
 	}
-		.Projects a:link
-	{
+
+
+/*PROJECTS LINKS*/
+.Projects li
+{
+	text-shadow:8px 8px 4px black;
+	padding: 10px;
+	font-size:15pt;
+	text-align: center;
+	background-color:#32313B;
+	list-style: none;
+}
+.Projects a:link
+{
 	text-decoration: none;
 	color:#0099FF;
-	}
-	.Projects a:visited
-	{
+}
+.Projects a:visited
+{
 	text-decoration: none;
 	color:#1FD26A;
-	}
-	.Projects a:hover
-	{
+}
+.Projects a:hover
+{
 	text-decoration: none;
 	color:#39B1C6;
-	}
-	.Projects a:focus
-	{
+}
+.Projects a:focus
+{
 	text-decoration: none;
 	color:#39B1C6;
-	}
-	.Projects a:active
-	{
-	
-	}
+}
+.Projects a:active
+{
+
+}
+
+
 #canvasContainer
 {
 	border:#39B1C6 8px solid;
