@@ -252,37 +252,155 @@ display: inline ;
 }
 
 /*INFORMATION CIRCLES*/
-#InfoColumns
+.InfoColumns
 {
-	
-
-}
-.infoCircle 
-{
-
-	background: red;
-	display:block;
-	float:left;
-	padding: 5em;
+	width:100%;
 	margin-left:auto;
 	margin-right:auto;
-	
-	width: 13em;
-    height: 13em;
-    border-radius: 13em;
+}
+.CenterWrapper
+{
+	width:46.8em;
+	margin:auto;
+}
+
+.infoCircle 
+{
+	background: #25242C;
+	display:block;
+	padding:1em;
+	float:left;
+	width: 10em;
+    height: 10em;
+    border-radius: 10em;
 	text-shadow:8px 8px 9px black;
 	text-align:center;
 	font-size:1.3em;
 	color:white;
+	
 }
-
+.infoCircle h1
+{
+	margin-top:1em;
+}
 .clear 
 { 
 	clear: both;
 }
 
+#Circle1, h1
+{
+	background: #25242C;
+}
+
+#Circle1 :hover
+{  
+	-webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+  background-color: #39B1C6;
+  cursor: pointer;
+}
+#Circle1 :hover  h1
+{  
+	-webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+  background-color: #39B1C6;
+  cursor: pointer;
+}
+
+
+
+/*CIRCLE 2*/
+#Circle2, h1, p
+{
+	background: #25242C;
+}
+#Circle2 p
+{
+	text-shadow: none;
+	color: rgba(0, 0, 0, 0)
+}
+#Circle2 :hover
+{  
+	-webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+  background-color: #FF8000;
+  cursor: pointer;
+}
+#Circle2 :hover h1
+{  
+	-webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+  background-color: #FF8000;
+  cursor: pointer;
+}
+#Circle2 :hover p
+{
+	-webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+  cursor: pointer;
+	color: white;
+	text-shadow:8px 8px 9px black;
+  background-color: #FF8000;
+}
+
+/*CIRCLE 3*/
+#Circle3, h1, p
+{
+	background: #25242C;
+}
+#Circle3 p
+{
+	text-shadow: none;
+	color: rgba(0, 0, 0, 0)
+}
+#Circle3 :hover
+{  
+	-webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+  background-color: #1FD26A;
+  cursor: pointer;
+}
+#Circle3 :hover h1
+{  
+	-webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+  background-color: #1FD26A;
+  cursor: pointer;
+}
+#Circle3 :hover p
+{
+	-webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+  cursor: pointer;
+	color: white;
+	text-shadow:8px 8px 9px black;
+  background-color: #1FD26A;
+}
+
+
+
 /*MEDIA DEVICE ALTERNATE CSS*/
 
+
+
+/*
 @media handheld
 {
 	body 
@@ -302,6 +420,9 @@ display: inline ;
 		display: block; 
 	}
 }
+
+
+*/
 
 
 /*SMART PHONES*/
@@ -347,11 +468,20 @@ display: inline ;
 	{
 		border-bottom: .1em solid #25242C;
 	}
+	.infoCircle 
+	{
+	float:left;
+	}
+	.CenterWrapper
+	{
+	width:15.8em;	
+	}
 	
 }
 
 /*IPAD SIZES/TABLETS*/
-@media only screen and (min-width: 481px) and (max-width: 979px) {
+@media only screen and (min-width: 481px) and (max-width: 979px)
+{
 	body 
 	{ 
 		padding: 1em 4%; 
@@ -363,6 +493,14 @@ display: inline ;
 	.footer
 	{
 	font-size: .9em;
+	}
+	.infoCircle 
+	{
+	float:left;
+	}
+	.CenterWrapper
+	{
+	width:15.8em;	
 	}
 }
  
