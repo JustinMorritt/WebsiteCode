@@ -183,13 +183,13 @@
 	padding: .5em;
 	font-size:1.5em;
 	text-align: center;
+	
 	/*border-top: 1pt solid white;*/
 	height: 1em;
     background: -webkit-linear-gradient(#34333F , black); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#34333F,black); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#34333F, black); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#34333F , black); /* Standard syntax (must be last) */
-	
 }
 .footer a:link
 {
@@ -458,7 +458,7 @@
 	}
 	.footer
 	{
-	font-size: 1em;
+		font-size: 1em;
 	}
 	#Main
 	{
@@ -484,25 +484,43 @@
 	}
 	.infoCircle 
 	{
-	float:left;
+		float:left;
 	}
 	.CenterWrapper
 	{
-	width:15.8em;	
+		width:15.8em;	
 	}
 	div .picOfMe
 	{
-	width: 20em;
-	height:28em;
+		width: 20em;
+		height:28em;
 	}
 	#picOfComp
 	{
-	width: 10em;
-	height:10em;
+		width: 10em;
+		height:10em;
 	}
 	.pageSubIntro h2
 	{
-	width: 90%;
+		width: 90%;
+	}
+	.projectColumns
+	{
+		width:100%;
+		height:100%;
+		margin: auto;
+	}
+	#a
+	{
+		float:none;
+		position: a;
+		width: 100%;
+	}
+	#b
+	{
+		float:none;
+		position: b;
+		width: 100%;
 	}
 }
 
@@ -538,10 +556,28 @@
 	{
 	width: 90%;
 	}
+	.projectColumns
+	{
+		width:100%;
+		height:100%;
+		margin: auto;
+	}
+	#a
+	{
+		float:none;
+		position: a;
+		width: 100%;
+	}
+	#b
+	{
+		float:none;
+		position: b;
+		width: 100%;
+	}
 }
  
 
 @media only screen and (device-width: 768px) 
 {
-  
+  /*CHANGE STUFF HERE*/
 }
