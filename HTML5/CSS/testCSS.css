@@ -6,6 +6,7 @@
 	baby blue - #39B1C6
 	green #1FD26A
 	Credit goes to http://mashastudio.net/ .. thanks .
+	My git hub : https://github.com/JustinMorritt
 */
 
 
@@ -53,7 +54,7 @@
 
 .Navbar li
 {
-display: inline ;
+	display: inline ;
 }
 /* Links on nav bar ---V   */
 .Navbar a:link
@@ -91,7 +92,7 @@ display: inline ;
 {
 	text-align:center;
 	text-shadow:8px 8px 9px black;
-	font-size:1.7em;
+	font-size:5em;
 	font-family:tahoma;
 	color:#39B1C6;
 	
@@ -101,7 +102,11 @@ display: inline ;
 	color: #FF8000;
 }
 
+
+
+
 /*SUB HEADING CONTENT*/
+
 .pageSubIntro
 {
 
@@ -113,11 +118,12 @@ display: inline ;
 	font-size:1.2em;
 	color:white;
 	text-align:center;
-	padding: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 	text-shadow:8px 8px 9px black;
 	margin-left:auto;
 	margin-right:auto;
-	width:60%;
+	width:80%;
 }
 .pageSubIntro h3
 {
@@ -130,6 +136,16 @@ display: inline ;
 	margin-right:auto;
 	width:60%;
 }
+.dividerBar
+{
+	border-bottom: 1px solid #39B1C6;
+	text-align:center;
+	padding: 1em;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+}
+
 
 #mainpic
 {
@@ -167,10 +183,7 @@ display: inline ;
 	padding: .5em;
 	font-size:1.5em;
 	text-align: center;
-
-
 	/*border-top: 1pt solid white;*/
-	
 	height: 1em;
     background: -webkit-linear-gradient(#34333F , black); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#34333F,black); /* For Opera 11.1 to 12.0 */
@@ -258,6 +271,16 @@ display: inline ;
 	margin-left:auto;
 	margin-right:auto;
 }
+.InfoColumns h3
+{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	text-shadow:8px 8px 9px black;
+	text-align:center;
+	font-size:1.3em;
+	color:white;
+}
 .CenterWrapper
 {
 	width:46.8em;
@@ -277,7 +300,7 @@ display: inline ;
 	text-align:center;
 	font-size:1.3em;
 	color:white;
-	
+	line-height:1.1em;
 }
 .infoCircle h1
 {
@@ -288,141 +311,132 @@ display: inline ;
 	clear: both;
 }
 
-#Circle1, h1
+.Circle1, h1, p
 {
 	background: #25242C;
 }
-
-#Circle1 :hover
-{  
-	-webkit-transition: background-color 2s ease-out;
-  -moz-transition: background-color 2s ease-out;
-  -o-transition: background-color 2s ease-out;
-  transition: background-color 2s ease-out;
-  background-color: #39B1C6;
-  cursor: pointer;
+.Circle1 p
+{
+	text-shadow: none;
+	color: rgba(0, 0, 0, 0)
 }
-#Circle1 :hover  h1
+
+.Circle1 :hover
 {  
 	-webkit-transition: background-color 2s ease-out;
-  -moz-transition: background-color 2s ease-out;
-  -o-transition: background-color 2s ease-out;
-  transition: background-color 2s ease-out;
-  background-color: #39B1C6;
-  cursor: pointer;
+	-moz-transition: background-color 2s ease-out;
+	-o-transition: background-color 2s ease-out;
+	transition: background-color 2s ease-out;
+	background-color: #39B1C6;
+	cursor: pointer;
+}
+.Circle1 :hover  h1
+{  
+	-webkit-transition: background-color 2s ease-out;
+	-moz-transition: background-color 2s ease-out;
+	-o-transition: background-color 2s ease-out;
+	transition: background-color 2s ease-out;
+	background-color: #39B1C6;
+	cursor: pointer;
+}
+.Circle1 :hover p
+{
+	-webkit-transition: background-color 2s ease-out;
+	-moz-transition: background-color 2s ease-out;
+	-o-transition: background-color 2s ease-out;
+	transition: background-color 2s ease-out;
+	cursor: pointer;
+	color: white;
+	text-shadow:8px 8px 9px black;
+	background-color: #39B1C6;
 }
 
 
 
 /*CIRCLE 2*/
-#Circle2, h1, p
+.Circle2, h1, p
 {
 	background: #25242C;
 }
-#Circle2 p
+.Circle2 p
 {
 	text-shadow: none;
 	color: rgba(0, 0, 0, 0)
 }
-#Circle2 :hover
+.Circle2 :hover
 {  
 	-webkit-transition: background-color 2s ease-out;
-  -moz-transition: background-color 2s ease-out;
-  -o-transition: background-color 2s ease-out;
-  transition: background-color 2s ease-out;
-  background-color: #FF8000;
-  cursor: pointer;
+	-moz-transition: background-color 2s ease-out;
+	-o-transition: background-color 2s ease-out;
+	transition: background-color 2s ease-out;
+	background-color: #FF8000;
+	cursor: pointer;
 }
-#Circle2 :hover h1
+.Circle2 :hover h1
 {  
 	-webkit-transition: background-color 2s ease-out;
-  -moz-transition: background-color 2s ease-out;
-  -o-transition: background-color 2s ease-out;
-  transition: background-color 2s ease-out;
-  background-color: #FF8000;
-  cursor: pointer;
+	-moz-transition: background-color 2s ease-out;
+	-o-transition: background-color 2s ease-out;
+	transition: background-color 2s ease-out;
+	background-color: #FF8000;
+	cursor: pointer;
 }
-#Circle2 :hover p
+.Circle2 :hover p
 {
 	-webkit-transition: background-color 2s ease-out;
-  -moz-transition: background-color 2s ease-out;
-  -o-transition: background-color 2s ease-out;
-  transition: background-color 2s ease-out;
-  cursor: pointer;
+	-moz-transition: background-color 2s ease-out;
+	-o-transition: background-color 2s ease-out;
+	transition: background-color 2s ease-out;
+	cursor: pointer;
 	color: white;
 	text-shadow:8px 8px 9px black;
-  background-color: #FF8000;
+	background-color: #FF8000;
 }
 
 /*CIRCLE 3*/
-#Circle3, h1, p
+.Circle3, h1, p
 {
 	background: #25242C;
 }
-#Circle3 p
+.Circle3 p
 {
 	text-shadow: none;
 	color: rgba(0, 0, 0, 0)
 }
-#Circle3 :hover
+.Circle3 :hover
 {  
 	-webkit-transition: background-color 2s ease-out;
-  -moz-transition: background-color 2s ease-out;
-  -o-transition: background-color 2s ease-out;
-  transition: background-color 2s ease-out;
-  background-color: #1FD26A;
-  cursor: pointer;
+	-moz-transition: background-color 2s ease-out;
+	-o-transition: background-color 2s ease-out;
+	transition: background-color 2s ease-out;
+	background-color: #1FD26A;
+	cursor: pointer;
 }
-#Circle3 :hover h1
+.Circle3 :hover h1
 {  
 	-webkit-transition: background-color 2s ease-out;
-  -moz-transition: background-color 2s ease-out;
-  -o-transition: background-color 2s ease-out;
-  transition: background-color 2s ease-out;
-  background-color: #1FD26A;
-  cursor: pointer;
+	-moz-transition: background-color 2s ease-out;
+	-o-transition: background-color 2s ease-out;
+	transition: background-color 2s ease-out;
+	background-color: #1FD26A;
+	cursor: pointer;
 }
-#Circle3 :hover p
+.Circle3 :hover p
 {
 	-webkit-transition: background-color 2s ease-out;
-  -moz-transition: background-color 2s ease-out;
-  -o-transition: background-color 2s ease-out;
-  transition: background-color 2s ease-out;
-  cursor: pointer;
+	-moz-transition: background-color 2s ease-out;
+	-o-transition: background-color 2s ease-out;
+	transition: background-color 2s ease-out;
+	cursor: pointer;
 	color: white;
 	text-shadow:8px 8px 9px black;
-  background-color: #1FD26A;
+	background-color: #1FD26A;
 }
 
-
-
-/*MEDIA DEVICE ALTERNATE CSS*/
-
-
-
-/*
-@media handheld
+#picOfMe
 {
-	body 
-	{ 
-		width: auto; 
-		padding: 0 
-	}
-}
-@media only screen and (max-width: 979px) 
-{
-	body 
-	{ 
-		width: auto; 
-	}
-	h2 
-	{ 
-		display: block; 
-	}
-}
 
-
-*/
+}
 
 
 /*SMART PHONES*/
@@ -462,7 +476,7 @@ display: inline ;
 	}
 	#Title
 	{
-		font-size:1em;
+		font-size:3em;
 	}
 	.Wrap
 	{
@@ -476,7 +490,20 @@ display: inline ;
 	{
 	width:15.8em;	
 	}
-	
+	div .picOfMe
+	{
+	width: 20em;
+	height:28em;
+	}
+	#picOfComp
+	{
+	width: 10em;
+	height:10em;
+	}
+	.pageSubIntro h2
+	{
+	width: 90%;
+	}
 }
 
 /*IPAD SIZES/TABLETS*/
@@ -492,15 +519,24 @@ display: inline ;
 	}
 	.footer
 	{
-	font-size: .9em;
+		font-size: .9em;
 	}
 	.infoCircle 
 	{
-	float:left;
+		float:left;
 	}
 	.CenterWrapper
 	{
-	width:15.8em;	
+		width:15.8em;	
+	}
+	#picOfComp
+	{
+	width: 15em;
+	height:15em;
+	}
+	.pageSubIntro h2
+	{
+	width: 90%;
 	}
 }
  

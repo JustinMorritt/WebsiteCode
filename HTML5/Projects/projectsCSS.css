@@ -1,0 +1,47 @@
+.git
+{
+	display: block;
+	background: url(../Pics/Git-Logo-White.png);
+    background-size: 100% 100%;
+	width: 9em;
+	height:4em;
+    background-repeat: no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.youtube
+{
+	display: block;
+	background: url(../Pics/YouTube-Transparent-Logo.png);
+    background-size: 100% 100%;
+	width: 9em;
+	height:4em;
+    background-repeat: no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.mario
+{
+	display: block;
+	background: url(../Pics/Mario.png);
+    background-size: 100% 100%;
+	width: 9em;
+	height:9em;
+    background-repeat: no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.indie
+{
+	display: block;
+	background: url(../Pics/Indie.png);
+    background-size: 100% 100%;
+	width: 9em;
+	height:9em;
+    background-repeat: no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+}

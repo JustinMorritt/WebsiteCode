@@ -1,0 +1,33 @@
+div .picOfMe
+{
+	display: block;
+	float:left;
+	background: url(../Pics/meEdit2.jpg);
+    background-size: 100% 100%;
+	width: 30em;
+	height:40em;
+    background-repeat: no-repeat;
+	opacity: 0.1;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 10em;
+}
+
+#picOfComp
+{
+	display:block;
+	background: url(../Pics/comp.jpg);
+    background-size: 100% 100%;
+	width: 30em;
+	height:30em;
+    background-repeat: no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 1em;
+	border: .5em solid #39B1C6;
+}
+#picOfComp a
+{
+	width: 30em;
+	height:30em;
+}
