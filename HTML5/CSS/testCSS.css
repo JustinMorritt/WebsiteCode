@@ -434,7 +434,7 @@
 }
 
 /* Picture Gallery Column*/
-#c
+.c
 {
 	float:left;
 	width: 100%;
@@ -565,13 +565,13 @@
 		height:100%;
 		margin: auto;
 	}
-	#a
+	.a
 	{
 		float:none;
 		position: a;
 		width: 100%;
 	}
-	#b
+	.b
 	{
 		float:none;
 		position: b;
@@ -587,7 +587,7 @@
 	margin-left:auto;
 	margin-right:auto;
 	}
-	#c
+	.c
 	{
 		float:none;
 		width: 100%;
@@ -632,13 +632,13 @@
 		height:100%;
 		margin: auto;
 	}
-	#a
+	.a
 	{
 		float:none;
 		position: a;
 		width: 100%;
 	}
-	#b
+	.b
 	{
 		float:none;
 		position: b;

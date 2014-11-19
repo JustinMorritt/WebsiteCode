@@ -4,7 +4,12 @@
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<title>--Contact--</title>
+		<link rel="stylesheet" type="text/css" href="contactCSS.css">
 		<link rel="stylesheet" type="text/css" href="../CSS/testCSS.css">
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		
+		
 	</head>
 	<body id="Main">
 		<div class="Navbar">
@@ -17,21 +22,103 @@
 			<div id="Title">
 			Contact <span id="Jayem">Me!</span>
 			</div>
+		</div> <!-- END WRAP -->
+		
+		<div class="Wrap" style="float:left; width:100%;">
+		
+			<div class="projectColumns">
 			
-		
-		
-		
+				<div class="a">
+					<div class="pageSubIntro">
+						<h2>Message/Email</h2>
+					</div><!-- PAGE SUB INTRO -->
+					<div class="Projects">
+						
+						
+						<form class="contact_form" name="contact_form" action="MAILTO:Jayem_@hotmail.com" method="post" enctype="text/plain">
+							<ul>
+								<li><a style="color:#FF8000; font-size:1.3em;">Send Me a Message</a></li>
+								<li>
+									<label for="name" style="color:#39B1C6;">Name</label>
+									<input type="text" name="name" placeholder="John Smith">
+								</li>
+								<li>
+									<label for="email" style="color:#39B1C6;">Email</label>
+									<input type="text" name="email" placeholder="Guy@hotmail.com">
+								</li>
+								<li>
+									<label for="message" style="color:#39B1C6;">Message</label>
+									<textarea type="text" name="message" value="" cols="27" rows="6" placeholder="Let me know what you think !"></textarea>
+								</li>
+								<li>
+									<button class="submit" type="submit">Submit Form</button>
+								</li>
+							
+							
+							</ul>
+						</form>
+												
+						
+						<a href="mailto:Jayem_@hotmail.com"  class="email"></a>
+						<li><a  href="mailto:Jayem_@hotmail.com">Email Me</a></li>
+					</div>
+				</div><!-- COlumn1 End -->
+				
+				<div class="b">
+					<div class="pageSubIntro">
+						<h2>Subscribe/Follow</h2>
+					</div><!-- PAGE SUB INTRO -->
+					<div class="Projects">
+						<a href="https://github.com/login?return_to=%2FJustinMorritt" target="_blank" class="git"></a>
+						<li><a href="https://github.com/login?return_to=%2FJustinMorritt" target="_blank">Follow me on GitHub!</a></li>
+						<a href="http://www.youtube.com/subscription_center?add_user=Jayemjigga" target="_blank" class="youtube"></a> 
+						<li><a href="http://www.youtube.com/subscription_center?add_user=Jayemjigga" target="_blank">Subscribe to my Youtube Channel</a></li>
+					</div>
+				</div><!-- COlumn2 End -->
+				
+			</div><!-- COlumns End -->
+			
+		</div> <!-- END WRAP -->
 
 			<!-- FILL IN HERE -->
 		
 
 		
 		
-		</div> <!-- END WRAP -->
+		
 		<div class="footer">
 			<a href="http://triosdevelopers.com/J.Morritt" target="_blank">
 				Copyright © triosdevelopers.com/J.Morritt
 			</a>
 		</div>
+		
+		<a href="#" class="back-to-top">Back to Top</a>
+		<script>            
+			jQuery(document).ready(function() 
+			{
+				var offset = 220;
+				var duration = 500;
+				jQuery(window).scroll(function() 
+				{
+					if (jQuery(this).scrollTop() > offset) 
+					{
+						jQuery('.back-to-top').fadeIn(duration);
+					}
+					else 
+					{
+						jQuery('.back-to-top').fadeOut(duration);
+					}
+				});
+				
+				jQuery('.back-to-top').click(function(event) 
+				{
+					event.preventDefault();
+					jQuery('html, body').animate({scrollTop: 0}, duration);
+					return false;
+				})
+			});
+		</script>
+		
+		
 	</body>
 </html>

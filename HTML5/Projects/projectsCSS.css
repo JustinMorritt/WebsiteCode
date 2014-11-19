@@ -4,12 +4,12 @@
 	height:100%;
 	margin: auto;
 }
-#a
+.a
 {
 	float:left;
 	width: 50%;
 }
-#b
+.b
 {
 	float:right;
 	width: 50%;
