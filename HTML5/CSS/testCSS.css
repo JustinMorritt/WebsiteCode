@@ -456,6 +456,13 @@
 	margin-bottom:2%;
 	margin-left:2%;
 	margin-right:2%;
+	border-radius: 3em;
+	box-shadow: 14px 14px 7px black;
+}
+.PicBox:hover
+{
+	border: 1em solid #1FD26A;
+	border-radius: 3em;
 }
 .PicBox a img
 {
