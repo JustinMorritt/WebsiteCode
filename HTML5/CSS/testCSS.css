@@ -14,7 +14,7 @@
 
 
 
-#Main
+body
 {
 	font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
 	margin:4em auto;
@@ -649,5 +649,9 @@
 
 @media only screen and (device-width: 768px) 
 {
-  /*CHANGE STUFF HERE*/
+
 }
+
+
+
+

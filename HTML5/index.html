@@ -2,131 +2,147 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width" /> <!--  <------MOBILE HEADER Needed for every html file-->
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<title>--Jayem Entertainment--</title>
-		<link rel="stylesheet" type="text/css" href="CSS/testCSS.css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-	</head>
-	<body id="Main">
 	
-		<div class="Navbar">
-			  <li id="firstnavitem"><a href="index.html">Home</a></li>
-			  <li><a href="./Projects/projects.html">Projects</a></li>
-			  <li><a href="./Contact/contact.html">Contact</a></li>
-			  <li><a href="./About/about.html">About</a></li>
-		</div>
-
-		<div class="Wrap">
-			<div id="Title">
-				 <span id="Jayem">Jayem</span> Entertainment 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="CSS/Animation.css">
+		<link rel="stylesheet" type="text/css" href="CSS/testCSS.css">
+		<link rel="stylesheet" type="text/css" href="CSS/keyframes.css">
+		
+	
+	</head>
+	<body>
+	<div class="m-scene" id="main">
+			<div class="Navbar">
+				  <li id="firstnavitem"><a href="index.html">Home</a></li>
+				  <li><a href="./Projects/projects.html">Projects</a></li>
+				  <li><a href="./Contact/contact.html">Contact</a></li>
+				  <li><a href="./About/about.html">About</a></li>
 			</div>
-		</div> <!-- END WRAP -->
+			
+		<div class="scene_element scene_element--fadeinup">
 		
-		<div class="Wrap">
-			<div class="pageSubIntro">
-				<h2>
-					Welcome to my portfolio website. I'm Justin Morritt, <br></br>
-					currently located in London, Ontario.
-				</h2>
-				
-			</div><!-- PAGE SUB INTRO -->
-			
-			<div class="InfoColumns">
-				<h3>My Arsenal:</h3>
-				<div class="CenterWrapper">
-					<div class="Circle1">
-						<div class="infoCircle">
-							<h1 style="font-size:1.6em;">C++</h1>
-							<p>
-								STL, Custom Structured Algorithms, File Management
-							</p>
-						</div>
-					</div>
-					<div class="Circle2">
-						<div class="infoCircle">
-								<h1>JavaScript</h1>
-								<p>
-								Canvas, JQuery
-								</p>
-						</div>
-					</div>
-					<div class="Circle3">
-						<div class="infoCircle">
-							<h1>HTML</h1>
-							<p>css3 , XML, HTML Tidy</p>
-						</div>
-					</div>
-					<div class="clear"></div>
+			<div class="Wrap">
+				<div id="Title">
+					 <span id="Jayem">Jayem</span> Entertainment 
 				</div>
-			</div>	<!--ENDCIRCLE WRAP -->
-			<div class="dividerBar"></div>
+			</div> <!-- END WRAP -->
 			
-			
+			<div class="Wrap">
+				<div class="pageSubIntro">
+					<h2>
+						Welcome to my portfolio website. I'm Justin Morritt, <br></br>
+						currently located in London, Ontario.
+					</h2>
+					
+				</div><!-- PAGE SUB INTRO -->
+					<div class="scene_element scene_element--tada">
 						<div class="InfoColumns">
-				<h3>My Toolbelt:</h3>
-				<div class="CenterWrapper">
-					<div class="Circle1">
-						<div class="infoCircle">
-							<h1>Coding</h1>
-							<p>
-								Visual Basic 2013, Notepad++, Qt
-							</p>
-						</div>
+							<h3>My Arsenal:</h3>
+							<div class="CenterWrapper">
+								<div class="Circle1">
+									<div class="infoCircle">
+										<h1 style="font-size:1.6em;">C++</h1>
+										<p>
+											STL, Custom Structured Algorithms, File Management
+										</p>
+									</div>
+								</div>
+								<div class="Circle2">
+									<div class="infoCircle">
+											<h1>JavaScript</h1>
+											<p>
+											Canvas, JQuery
+											</p>
+									</div>
+								</div>
+								<div class="Circle3">
+									<div class="infoCircle">
+										<h1>HTML</h1>
+										<p>css3 , XML, HTML Tidy</p>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>	<!--ENDCIRCLE WRAP -->
+						<div class="dividerBar"></div>
 					</div>
-					<div class="Circle2">
-						<div class="infoCircle">
-								<h1 style="font-size:1.5em; width:70%; margin-left:1em;";>Version Control</h1>
-								<p>
-								Tortoise SVN, Git(command line), GitHub
-								</p>
-						</div>
-					</div>
-					<div class="Circle3">
-						<div class="infoCircle">
-							<h1 style="font-size:1.5em; width:70%; margin-left:1em;";>Photo & Audio</h1>
-							<p>Photoshop, Painttool SAI, WavePad </p>
-						</div>
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>	<!--ENDCIRCLE WRAP -->
-			<div class="dividerBar"></div>
-			
-			
-		<div class="footer">
-		<a href="http://triosdevelopers.com/J.Morritt" target="_blank">
-			Copyright © triosdevelopers.com/J.Morritt
-		</a>
-		</div>
-		
-		
-		<a href="#" class="back-to-top">Back to Top</a>
-		<script>            
-			jQuery(document).ready(function() 
-			{
-				var offset = 220;
-				var duration = 500;
-				jQuery(window).scroll(function() 
-				{
-					if (jQuery(this).scrollTop() > offset) 
-					{
-						jQuery('.back-to-top').fadeIn(duration);
-					}
-					else 
-					{
-						jQuery('.back-to-top').fadeOut(duration);
-					}
-				});
 				
-				jQuery('.back-to-top').click(function(event) 
+				<div class="InfoColumns">
+					<h3>My Toolbelt:</h3>
+					<div class="CenterWrapper">
+						<div class="Circle1">
+							<div class="infoCircle">
+								<h1>Coding</h1>
+								<p>
+									Visual Basic 2013, Notepad++, Qt
+								</p>
+							</div>
+						</div>
+						<div class="Circle2">
+							<div class="infoCircle">
+									<h1 style="font-size:1.5em; width:70%; margin-left:1em;";>Version Control</h1>
+									<p>
+									Tortoise SVN, Git(command line), GitHub
+									</p>
+							</div>
+						</div>
+						<div class="Circle3">
+							<div class="infoCircle">
+								<h1 style="font-size:1.5em; width:70%; margin-left:1em;";>Photo & Audio</h1>
+								<p>Photoshop, Painttool SAI, WavePad </p>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>	<!--ENDCIRCLE WRAP -->
+				<div class="dividerBar"></div>
+				
+			</div><!--END OF wrap-->
+		</div><!--END OF TRANSITION-->
+			
+			<div class="footer">
+			<a href="http://triosdevelopers.com/J.Morritt" target="_blank">
+				Copyright © triosdevelopers.com/J.Morritt
+			</a>
+			</div>
+			
+			
+			<a href="#" class="back-to-top">Back to Top</a>
+			<script>            
+				jQuery(document).ready(function() 
 				{
-					event.preventDefault();
-					jQuery('html, body').animate({scrollTop: 0}, duration);
-					return false;
-				})
-			});
-		</script>
+					var offset = 220;
+					var duration = 500;
+					jQuery(window).scroll(function() 
+					{
+						if (jQuery(this).scrollTop() > offset) 
+						{
+							jQuery('.back-to-top').fadeIn(duration);
+						}
+						else 
+						{
+							jQuery('.back-to-top').fadeOut(duration);
+						}
+					});
+					
+					jQuery('.back-to-top').click(function(event) 
+					{
+						event.preventDefault();
+						jQuery('html, body').animate({scrollTop: 0}, duration);
+						return false;
+					})
+				});
+			</script>
+			
+			
+			<script src="./Js/smoothstate.js"></script>
+			<script src="./Js/functions.js"></script>
+			
 		
+	</div> <!--END OF PAGE TRANSITION  using http://weblinc.github.io/jquery.smoothState.js/index.html-->
 	</body>
 </html>

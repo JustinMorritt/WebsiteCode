@@ -14,10 +14,12 @@
 		<script type="text/javascript" src="../fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
 		<link rel="stylesheet" type="text/css" href="../fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
 		
-		
+		<link rel="stylesheet" type="text/css" href="../CSS/keyframes.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/Animation.css">
 		<link rel="stylesheet" type="text/css" href="projectsCSS.css">
 		<link rel="stylesheet" type="text/css" href="../CSS/testCSS.css">
-		
+		<!-- Attempted to implement transition ... **major comflicts between the two .js files** -->
+	
 		<script type="text/javascript">
 			$(document).ready(function() 
 			{
@@ -27,7 +29,6 @@
 				{
 					$.fancybox.open('1_b.jpg');
 				});
-
 				$("#fancybox-manual-b").click(function() 
 				{
 					$.fancybox.open(
@@ -42,8 +43,7 @@
 
 	</head>
 	
-	<body id="Main">
-	
+	<body>
 		<div class="Navbar">
 			  <li><a href="../index.html">Home</a></li>
 			  <li><a href="projects.html">Projects</a></li>
@@ -51,7 +51,7 @@
 			  <li><a href="../About/about.html">About</a></li>
 		</div>
 
-		
+
 		<div class="Wrap">
 			<div id="Title">
 				Current and <span id="Jayem">Finished Projects</span>
@@ -96,7 +96,7 @@
 						<h2>Picture Gallery & Program Walkthroughs</h2>
 				</div><!-- PAGE SUB INTRO -->
 			</div>
-			
+		
 			<!-- PICTURE GALLERY ALL BELOW-->
 			<div class="Gallery">
 			
@@ -242,10 +242,10 @@
 				
 				
 			</div><!-- END Gallery -->
-		<a href="#" class="back-to-top">Back to Top</a>
+		
 		</div> <!-- END WRAP -->
-		
-		
+	
+		<a href="#" class="back-to-top">Back to Top</a>
 		<div class="footer">
 			<a href="http://triosdevelopers.com/J.Morritt" target="_blank">
 			Copyright © triosdevelopers.com/J.Morritt
@@ -278,5 +278,11 @@
 				})
 			});
 		</script>
+		
+
+		<script src="../Js/smoothstate.js"></script>
+		<script src="../Js/functions.js"></script>
+	
+	
 	</body>
 </html>
