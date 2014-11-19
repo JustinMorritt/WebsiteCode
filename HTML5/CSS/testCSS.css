@@ -433,10 +433,58 @@
 	background-color: #1FD26A;
 }
 
-#picOfMe
+/* Picture Gallery Column*/
+#c
 {
-
+	float:left;
+	width: 100%;
 }
+.Gallery
+{
+	float: left;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.PicBox
+{
+	float:left;
+	border: 1em solid #39B1C6;
+	width: 10em;
+	height:10em;
+	margin-bottom:2%;
+	margin-left:2%;
+	margin-right:2%;
+}
+.PicBox a img
+{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/*To Top Button*/
+.back-to-top {
+    position: fixed;
+    bottom: 4em;
+    right: 1em;
+    text-decoration: none;
+	text-shadow:4px 4px 3px black;
+    color: #39B1C6;
+    background-color: rgba(37, 36, 44, 0.50);
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+	 border-radius: 1em;
+}
+
+.back-to-top:hover { 
+	color: #1FD26A;   
+    background-color: rgba(37, 36, 44, 0.90);
+}
+
 
 
 /*SMART PHONES*/
@@ -521,6 +569,16 @@
 		float:none;
 		position: b;
 		width: 100%;
+	}
+	.PicBox
+	{
+	float:none;
+	border: 1em solid #39B1C6;
+	width: 10em;
+	height:10em;
+	margin-bottom:2%;
+	margin-left:auto;
+	margin-right:auto;
 	}
 }
 
