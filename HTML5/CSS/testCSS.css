@@ -580,6 +580,11 @@
 	margin-left:auto;
 	margin-right:auto;
 	}
+	#c
+	{
+		float:none;
+		width: 100%;
+	}
 }
 
 /*IPAD SIZES/TABLETS*/
