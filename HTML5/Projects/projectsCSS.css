@@ -21,12 +21,12 @@
 
 .git
 {
-	display: block;
 	background: url(../Pics/Git-Logo-White.png);
 	background-size: 100% 100%;
 	width: 9em;
 	height:4em;
 	background-repeat: no-repeat;
+	display: block;
 	margin-left:auto;
 	margin-right:auto;
 }

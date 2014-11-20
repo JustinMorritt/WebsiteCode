@@ -12,8 +12,6 @@
 
 
 
-
-
 body
 {
 	font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
@@ -42,7 +40,7 @@ body
 	text-align: center;
 	word-spacing:8em;
 	/*border-bottom: 1pt solid white;*/
-	z-index:9999;
+	z-index:100;
 	height: 1em;
 	background: -webkit-linear-gradient(black , #34333F); /* For Safari 5.1 to 6.0 */
 	background: -o-linear-gradient(black,#34333F); /* For Opera 11.1 to 12.0 */
@@ -90,9 +88,9 @@ body
 #Title
 {
 	text-align:center;
-	text-shadow:8px 8px 9px black;
+	text-shadow:3px 3px 6px white;
 	font-size:5em;
-	font-family:tahoma;
+	font-family:CODELight;
 	color:#39B1C6;
 	
 }
@@ -300,6 +298,7 @@ body
 	font-size:1.3em;
 	color:white;
 	line-height:1.1em;
+	box-shadow: 0px 19px 19px black;
 }
 .infoCircle h1
 {
@@ -468,6 +467,7 @@ body
 	width: 100%;
 	height: 100%;
 }
+
 
 
 
@@ -655,118 +655,4 @@ body
 
 
 
-
-
-.sfTable {
-display : table;
-border-collapse: collapse;
-width : 207px;
-height : 57px;
-}
-.sfTwitter {
-background : url(../Pics/twitter-watermark.png) no-repeat right bottom;
-border : 1px solid #CCCCCC;
-background-color : #F9F9F9;
-}
-.sfFacebook {
-background : url(../Pics/facebook-watermark.gif) no-repeat right bottom;
-border : 1px solid #C4CDE0;
-background-color : #EDEFF4;
-}
-.sfGithub {
-background : url(../Pics/github-watermark.gif) no-repeat right bottom;
-border : 1px solid #D4D4D4;
-background-color: #ececec;
-}
-.sfBitbucket {
-background : url(../Pics/bitbucket-watermark.png) no-repeat right bottom;
-border : 1px solid #D4D4D4;
-background-color: #ececec;
-}
-.sfRow {
-display : table-row;
-width : 100%;
-}
-.sfCell1 {
-display : table-cell;
-width : 48px;
-padding : 4px 0px 0px 5px;
-}
-.sfCell2 {
-display : table-cell;
-vertical-align : top;
-text-align : left;
-padding-left : 10px;
-padding-top : 3px;
-width : 146px;
-}
-.sfCell2 div.sfHandle {
-font : 13px "Tahoma",Helvetica,Arial,sans-serif;
-font-weight : bold;
-margin-right : 5px;
-width : 140px;
-word-wrap: break-word;
-}
-.sfTwitter div.sfHandle {
-color : #0084B4;
-}
-.sfFacebook div.sfHandle {
-color : #627AAD;
-}
-.sfGithub div.sfHandle {
-color : #333;
-}
-.sfCell2 div.sfFans {
-font : 11px "Tahoma",Helvetica,Arial,sans-serif;
-color : #999;
-font-weight : bold;
-padding-top : 5px;
-}
-.sfCell2 div.sfFans span { padding-right : 10px; }
-.sfCell2 div.sfFans span.hireable { color : #A229A9; }
-.sfTwitter .sfCell2 div.sfFans span.following {
-background : url(../Pics/twitter.ico) no-repeat left center;
-padding-left : 20px;
-}
-.sfTwitter .sfCell2 div.sfFans span.followers {
-background : url(../Pics/twitterr.ico) no-repeat left center;
-padding-left : 20px;
-}
-.sfGithub .sfCell2 div.sfFans span.public_repos {
-background : url(../Pics/repos.gif) no-repeat left center;
-padding-left : 20px;
-}
-.sfGithub .sfCell2 div.sfFans span.followers {
-background : url(../Pics/githubr.ico) no-repeat left center;
-padding-left : 20px;
-}
-.sfBitbucket .sfCell2 div.sfFans span.public_repos {
-background : url(../Pics/repos.gif) no-repeat left center;
-padding-left : 20px;
-}
-.sfBitbucket .sfCell2 div.sfFans span.followers {
-background : url(../Pics/bitbucket.ico) no-repeat left center;
-padding-left : 20px;
-}
-.sfFacebook .sfCell2 div.sfFans span.following {
-background : url(../Pics/friends.gif) no-repeat left center;
-padding-left : 20px;
-}
-.sfFacebook .sfCell2 div.sfFans span.following {
-background : url(../Pics/friends.gif) no-repeat left center;
-padding-left : 20px;
-}
-img.ico {
-vertical-align : middle;
-margin-right : 5px;
-}
-img.sfProfilePic {
--webkit-border-radius: 4px; /* Saf3-4, iOS 1-3.2, Android ≤1.6 */
-border-radius: 4px; /* Opera 10.5, IE9, Saf5, Chrome, FF4+, iOS 4, Android 2.1+ */
-/* useful if you don't want a bg color from leaking outside the border: */
--moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
-}
-a.sfLink {
-text-decoration: none;
-}
 

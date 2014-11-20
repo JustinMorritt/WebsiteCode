@@ -14,12 +14,29 @@
 		<script type="text/javascript" src="../fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
 		<link rel="stylesheet" type="text/css" href="../fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
 		
-		<link rel="stylesheet" type="text/css" href="../CSS/keyframes.css">
-		<link rel="stylesheet" type="text/css" href="../CSS/Animation.css">
+	
 		<link rel="stylesheet" type="text/css" href="projectsCSS.css">
 		<link rel="stylesheet" type="text/css" href="../CSS/testCSS.css">
 		<!-- Attempted to implement transition ... **major comflicts between the two .js files** -->
-	
+		
+		
+		
+		<style>
+		@font-face 
+		{
+			font-family: CODELight;
+			src: url(../Fonts/CODELight.woff);
+		}
+		@font-face 
+		{
+			font-family: CODEBold;
+			src: url(../Fonts/CODEBold.woff);
+		}
+		</style>
+		
+		
+		
+		
 		<script type="text/javascript">
 			$(document).ready(function() 
 			{
@@ -78,8 +95,8 @@
 					<div class="pageSubIntro">
 						<h2>Ongoing Projects</h2>
 					</div><!-- PAGE SUB INTRO -->
-					<div class="Projects" ">
-						<div id='githubFlair' style="width:13em; margin-left:auto;margin-right:auto;"></div>
+					<div class="Projects">
+						<a class="git" href="https://github.com/login?return_to=%2FJustinMorritt"></a>
 						<li><a href="https://github.com/login?return_to=%2FJustinMorritt" target="_blank">Check out my GitHub</a></li>
 						<a href="https://www.youtube.com/channel/UClJwkkR1TQ9QbhP7f4KuFmw" target="_blank" class="youtube"></a> 
 						<li><a href="https://www.youtube.com/channel/UClJwkkR1TQ9QbhP7f4KuFmw" target="_blank">Take a look at my Youtube Channel!</a></li>
@@ -255,20 +272,7 @@
 			</a>
 		</div>
 		
-		
-				<script src='../Js/jquery.socialflair.js'></script>
-		<script>
-			$(function () {
-			$('#twitterFlair').socialFlair('twitter', 'username', {});
-			$('#githubFlair').socialFlair('github', 'JustinMorritt', {});
-			$('#bitbucketFlair').socialFlair('bitbucket', 'username', {});
-			$('#facebookFlair').socialFlair('facebook', 'username', {
-			clientId : 'clientId',
-			clientSecret : 'clientSecrete'
-			});
-			$('#bitbucketFlair').socialFlair('bitbucket', 'username', {});
-			});
-		</script>
+
 
 		<script>            
 			jQuery(document).ready(function() 

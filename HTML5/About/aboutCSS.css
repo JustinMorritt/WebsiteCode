@@ -2,15 +2,17 @@ div .picOfMe
 {
 	display: block;
 	float:left;
-	background: url(../Pics/meEdit2.jpg);
+	background: url(../Pics/me.jpg);
     background-size: 100% 100%;
 	width: 30em;
 	height:40em;
     background-repeat: no-repeat;
-	opacity: 0.1;
+	opacity: 0.6;
 	margin-left:auto;
 	margin-right:auto;
-	border-radius: 10em;
+	border-radius: 17em;
+	border: 1px solid #39B1C6;
+	z-index:100;
 }
 
 #picOfComp
