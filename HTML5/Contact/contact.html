@@ -6,9 +6,9 @@
 		<title>--Contact--</title>
 		<link rel="stylesheet" type="text/css" href="../CSS/Animation.css">
 		<link rel="stylesheet" type="text/css" href="contactCSS.css">
-		<link rel="stylesheet" type="text/css" href="../CSS/testCSS.css">
-		<link rel="stylesheet" type="text/css" href="../CSS/keyframes.css">
 		
+		<link rel="stylesheet" type="text/css" href="../CSS/keyframes.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/testCSS.css">
 		
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 		
@@ -66,8 +66,9 @@
 						</form>
 												
 						
-						<a href="mailto:Jayem_@hotmail.com"  class="email"></a>
-						<li><a  href="mailto:Jayem_@hotmail.com">Email Me</a></li>
+						
+						<li><a  href="mailto:Jayem_@hotmail.com" >Email Me</a></li>
+						<a href="mailto:Jayem_@hotmail.com"  class="email" ></a>
 					</div>
 				</div><!-- COlumn1 End -->
 				
@@ -75,11 +76,15 @@
 					<div class="pageSubIntro">
 						<h2>Subscribe/Follow</h2>
 					</div><!-- PAGE SUB INTRO -->
-					<div class="Projects">
-						<a href="https://github.com/login?return_to=%2FJustinMorritt" target="_blank" class="git"></a>
+					<div class="Projects" style="padding-bottom: 5em;">
+						
+						<div id='githubFlair' style="width:13em; margin-left:auto;margin-right:auto;"></div>
 						<li><a href="https://github.com/login?return_to=%2FJustinMorritt" target="_blank">Follow me on GitHub!</a></li>
 						<a href="http://www.youtube.com/subscription_center?add_user=Jayemjigga" target="_blank" class="youtube"></a> 
 						<li><a href="http://www.youtube.com/subscription_center?add_user=Jayemjigga" target="_blank">Subscribe to my Youtube Channel</a></li>
+								<a  href="http://stackoverflow.com/users/4272382/justinmorritt">
+					<li style="padding-top:1em;"><img src="http://stackoverflow.com/users/flair/4272382.png?theme=dark" width="208" target="_blank" height="58" alt="profile for JustinMorritt at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for JustinMorritt at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a></li>
+					<li><a href="http://stackoverflow.com/users/4272382/justinmorritt" target="_blank">Follow on Stack Overflow</a></li>
 					</div>
 				</div><!-- COlumn2 End -->
 				
@@ -98,6 +103,22 @@
 		</div>
 		
 		<a href="#" class="back-to-top">Back to Top</a>
+		
+		
+		<script src='../Js/jquery.socialflair.js'></script>
+		<script>
+			$(function () {
+			$('#twitterFlair').socialFlair('twitter', 'username', {});
+			$('#githubFlair').socialFlair('github', 'JustinMorritt', {});
+			$('#bitbucketFlair').socialFlair('bitbucket', 'username', {});
+			$('#facebookFlair').socialFlair('facebook', 'username', {
+			clientId : 'clientId',
+			clientSecret : 'clientSecrete'
+			});
+			$('#bitbucketFlair').socialFlair('bitbucket', 'username', {});
+			});
+		</script>
+		
 		<script>            
 			jQuery(document).ready(function() 
 			{

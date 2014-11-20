@@ -22,11 +22,6 @@
 .git
 {
 	display: block;
-	background: url(../Pics/Git-Logo-White.png);
-	background-size: 100% 100%;
-	width: 9em;
-	height:4em;
-	background-repeat: no-repeat;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -105,17 +100,13 @@ button.submit {
     background: -o-linear-gradient(top, black, #34333F);
     background: linear-gradient(top, black, #34333F);
     border: 1px solid #39B1C6;
-    border-bottom: 1px solid #5b992b;
+  
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
-    box-shadow: inset 0 1px 0 0 #9fd574;
-    -webkit-box-shadow: 0 1px 0 0 #9fd574 inset ;
-    -moz-box-shadow: 0 1px 0 0 #9fd574 inset;
-    -ms-box-shadow: 0 1px 0 0 #9fd574 inset;
-    -o-box-shadow: 0 1px 0 0 #9fd574 inset;
+
     color: #39B1C6;
     font-weight: bold;
     padding: 6px 20px;

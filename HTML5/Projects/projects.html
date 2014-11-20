@@ -78,11 +78,15 @@
 					<div class="pageSubIntro">
 						<h2>Ongoing Projects</h2>
 					</div><!-- PAGE SUB INTRO -->
-					<div class="Projects">
-						<a href="https://github.com/JustinMorritt" target="_blank" class="git"></a>
-						<li><a href="https://github.com/JustinMorritt" target="_blank">Check out my Git Hub For Daily Updates !</a></li>
+					<div class="Projects" ">
+						<div id='githubFlair' style="width:13em; margin-left:auto;margin-right:auto;"></div>
+						<li><a href="https://github.com/login?return_to=%2FJustinMorritt" target="_blank">Check out my GitHub</a></li>
 						<a href="https://www.youtube.com/channel/UClJwkkR1TQ9QbhP7f4KuFmw" target="_blank" class="youtube"></a> 
 						<li><a href="https://www.youtube.com/channel/UClJwkkR1TQ9QbhP7f4KuFmw" target="_blank">Take a look at my Youtube Channel!</a></li>
+						<a href="http://stackoverflow.com/users/4272382/justinmorritt">
+					<li style="padding:0;"><img src="http://stackoverflow.com/users/flair/4272382.png?theme=dark" width="208" target="_blank" height="58" alt="profile for JustinMorritt at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for JustinMorritt at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a></li>
+					<li><a href="http://stackoverflow.com/users/4272382/justinmorritt" target="_blank">Stack Overflow Contributions</a></li>
+					
 					</div>
 				</div><!-- COlumn2 End -->
 				
@@ -99,7 +103,6 @@
 		
 			<!-- PICTURE GALLERY ALL BELOW-->
 			<div class="Gallery">
-			
 			
 			
 			<div class="c">
@@ -252,6 +255,20 @@
 			</a>
 		</div>
 		
+		
+				<script src='../Js/jquery.socialflair.js'></script>
+		<script>
+			$(function () {
+			$('#twitterFlair').socialFlair('twitter', 'username', {});
+			$('#githubFlair').socialFlair('github', 'JustinMorritt', {});
+			$('#bitbucketFlair').socialFlair('bitbucket', 'username', {});
+			$('#facebookFlair').socialFlair('facebook', 'username', {
+			clientId : 'clientId',
+			clientSecret : 'clientSecrete'
+			});
+			$('#bitbucketFlair').socialFlair('bitbucket', 'username', {});
+			});
+		</script>
 
 		<script>            
 			jQuery(document).ready(function() 
@@ -279,7 +296,6 @@
 			});
 		</script>
 		
-
 		<script src="../Js/smoothstate.js"></script>
 		<script src="../Js/functions.js"></script>
 	
