@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<title>--Maps--</title>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		
+		<!-- mousewheel plugin -->
+		<script type="text/javascript" src="../fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+		<!-- fancyBox main JS and CSS files -->
+		<script type="text/javascript" src="../fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
+		<link rel="stylesheet" type="text/css" href="../fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+		
+	
+		<link rel="stylesheet" type="text/css" href="CSGO.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/testCSS.css">
+		<!-- Attempted to implement transition ... **major conflicts between the two .js files** -->
+		
+		
+		
+		<style>
+		@font-face 
+		{
+			font-family: CODELight;
+			src: url(../Fonts/CODELight.woff);
+		}
+		@font-face 
+		{
+			font-family: CODEBold;
+			src: url(../Fonts/CODEBold.woff);
+		}
+		</style>
+		
+		
+		
+		
+		<script type="text/javascript">
+			$(document).ready(function() 
+			{
+				$('.fancybox').fancybox();
+				
+				$("#fancybox-manual-a").click(function() 
+				{
+					$.fancybox.open('1_b.jpg');
+				});
+				$("#fancybox-manual-b").click(function() 
+				{
+					$.fancybox.open(
+					{
+						href : 'iframe.html',
+						type : 'iframe',
+						padding : 5
+					});
+				});
+			});
+		</script>
+
+	</head>
+	
+	<body>
+		<div class="Navbar">
+			  <li><a href="../index.html">Home</a></li>
+			  <li><a href="../Projects/projects.html">Projects</a></li>
+			  <li><a href="../Contact/contact.html">Contact</a></li>
+			  <li><a href="../About/about.html">About</a></li>
+		</div>
+
+
+		<div class="Wrap">
+			<div id="Title">
+				Maps <span id="Jayem">By Jayem</span>
+			</div>
+		</div> <!-- END WRAP -->
+		
+		
+		<div class="Wrap" style="float:left; width:100%;">
+			<div class="c">
+				<div class="pageSubIntro">
+						<h2>Barn Farm</h2>
+				</div><!-- PAGE SUB INTRO -->
+			</div>
+		
+			<!-- PICTURE GALLERY ALL BELOW-->
+			<div class="Gallery">
+			
+			
+			<div class="c">
+				<div class="pageSubIntro">
+					<h2 style="border: none; color:#FF8000;"></h2>
+				</div>
+			</div>
+				<div class="PicBox">
+					<a class="fancybox" href="../Pics/Poker1.jpg" data-fancybox-group="gallery" title="First Major C++ Program, Poker Simulator"><img src="../Pics/Poker1.jpg" alt="no find" /></a>
+				</div>	
+
+				
+			</div><!-- END Gallery -->
+		
+		</div> <!-- END WRAP -->
+	
+		<a href="#" class="back-to-top">Back to Top</a>
+		<div class="footer">
+			<a href="http://triosdevelopers.com/J.Morritt" target="_blank">
+			Copyright © triosdevelopers.com/J.Morritt
+			</a>
+		</div>
+		
+
+
+		<script>            
+			jQuery(document).ready(function() 
+			{
+				var offset = 220;
+				var duration = 500;
+				jQuery(window).scroll(function() 
+				{
+					if (jQuery(this).scrollTop() > offset) 
+					{
+						jQuery('.back-to-top').fadeIn(duration);
+					}
+					else 
+					{
+						jQuery('.back-to-top').fadeOut(duration);
+					}
+				});
+				
+				jQuery('.back-to-top').click(function(event) 
+				{
+					event.preventDefault();
+					jQuery('html, body').animate({scrollTop: 0}, duration);
+					return false;
+				})
+			});
+		</script>
+		
+	
+	
+	
+	</body>
+</html>

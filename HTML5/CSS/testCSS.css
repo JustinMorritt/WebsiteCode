@@ -110,9 +110,11 @@ body
 }
 .pageSubIntro h2
 {
-	border-bottom: 1px solid #39B1C6;
-	border-top: 1px solid #39B1C6;
-	font-size:1.2em;
+	border-radius: 2em;
+	box-shadow: 14px 14px 7px black;
+	border-bottom: 3px solid #39B1C6;
+	border-top: 3px solid #39B1C6;
+	font-size:2.2em;
 	color:white;
 	text-align:center;
 	padding-top: 1em;
@@ -127,12 +129,47 @@ body
 	font-size:1.2em;
 	color:white;
 	text-align:center;
+	padding: 1.5em;
+	text-shadow:8px 8px 9px black;
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+}
+
+
+.pageSubTopic
+{
+	
+	border-radius: 2em;
+	box-shadow: 14px 14px 7px black;
+	border-top: 1px solid #FF8000;
+	border-bottom: 1px solid #FF8000;
+	font-size:1.2em;
+	color:white;
+	text-align:center;
+	padding-bottom: 1.5em;
+	text-shadow:8px 8px 9px black;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:1em;
+	width:50%;
+}
+.pageSubTopic h3
+{
+	font-size:1.2em;
+	color:white;
+	text-align:center;
 	padding: 2em;
 	text-shadow:8px 8px 9px black;
 	margin-left:auto;
 	margin-right:auto;
 	width:60%;
 }
+
+
+
+
+
 .dividerBar
 {
 	border-bottom: 1px solid #39B1C6;
@@ -487,7 +524,7 @@ body
 }
 
 .back-to-top:hover { 
-	color: #1FD26A;   
+	color: #1FD26A;
     background-color: rgba(37, 36, 44, 0.90);
 }
 
@@ -593,6 +630,11 @@ body
 		float:none;
 		width: 100%;
 	}
+		.SpaceShooter
+	{
+		width: 6em;
+		height:11em;
+	}
 }
 
 /*IPAD SIZES/TABLETS*/
@@ -645,6 +687,12 @@ body
 		position: b;
 		width: 100%;
 	}
+	.SpaceShooter
+	{
+		width: 6em;
+		height:11em;
+	}
+
 }
  
 
