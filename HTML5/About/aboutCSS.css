@@ -2,13 +2,13 @@ div .picOfMe
 {
 	display: block;
 	float:left;
-	background: url(../Pics/meEdit3.jpg);
+	background: url(../Pics/me.jpg);
     background-size: 100% 100%;
 	width: 30em;
 	height:40em;
     background-repeat: no-repeat;
-	margin-left:auto;
-	margin-right:auto;
+	margin-left:1em;
+	margin-right:1em;
 	border-radius: 17em;
 	border: 1px solid #39B1C6;
 	z-index:100;
