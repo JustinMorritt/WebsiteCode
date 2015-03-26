@@ -1,0 +1,215 @@
+/* Dark Blue : #000033  */
+/* Lighter Blue : #33335C  */
+/* Light Green BackGround : #66FF66  */
+
+body
+{
+	margin:0;
+	overflow: hidden;
+	background-color:black;
+	background-image:
+	radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+	radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+	radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+	radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+#gameWrap
+{
+    margin-left: auto;
+    margin-right: auto;
+	margin-top:1em;
+    width: 60%;
+}
+
+#game
+{
+	font-family:armwrestlerbold;
+	color:#000033;
+	position: absolute;
+	width: 60%;
+	height: 90%;
+	
+	background:
+	radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 9%, hsla(0, 100%, 20%, 0) 9%) 0 0,
+	radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 8%, hsla(0, 100%, 20%, 0) 10%) 50px 50px,
+	radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 50px 0,
+	radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 0 50px,
+	radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 50px 0,
+	radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 100px 50px,
+	radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 0 0,
+	radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 50px 50px,
+	linear-gradient(45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0,
+	linear-gradient(-45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0;
+	background-color: #300; 
+	background-size: 100px 100px;
+	
+	border: 1em solid black;
+	border-radius: 3em;
+	box-shadow:		4px 4px 6px rgb(255,255,0),
+					-4px -4px 6px rgb(255,255,0),
+					0px 0px 0px black;
+}
+
+#game .screen
+{
+	position: absolute;
+	width:100%;
+	height:100%;
+	display: none;
+	z-index:10;
+}
+
+#game .screen.active
+{
+	display:block;
+}
+
+#splash-screen
+{
+	font-family:armwrestlerbold;
+	color:#000033;
+	text-align: center;
+	padding-top:2em;
+}
+
+#splash-screen .continue
+{
+	cursor: pointer;
+	padding-top:5em;
+	color:red;
+	font-size:2em;
+	text-shadow: 	2px 2px 3px black,
+					-2px -2px 3px black,
+					0px 0px 0px black;
+}
+
+#splash-screen .logo
+{
+	font-family:amadeus_regularamadeusRg;
+	color:#000033;
+	font-size:6.6em;
+	margin:0;
+	text-align: center;
+	text-shadow: 	2px 2px 3px rgb(255,255,0),
+					-2px -2px 3px rgb(255,255,0),
+					6px 10px 10px black;
+}
+
+
+
+/*MAIN MENU STYLES*/
+#main-menu
+{
+	padding-top:2em;
+}
+
+#main-menu .logo
+{
+	font-family:amadeus_regularamadeusRg;
+	color:#000033;
+	font-size:6.6em;
+	margin:0;
+	text-align: center;
+	text-shadow: 	2px 2px 3px rgb(255,255,0),
+					-2px -2px 3px rgb(255,255,0),
+					6px 10px 10px black;
+}
+
+
+
+ul.menu li
+{
+	
+	text-align:center;
+	padding:0;
+	margin-top:1em;
+	margin-right:2em;
+	list-style:none;
+}
+ul.menu li button
+{
+
+	font-family:armwrestlerbold;
+	font-size:3em;
+	color: red;
+	width:10em;
+	height:1.5em;
+	background:black;
+	border: 0.05em solid rgb(255,255,0);
+	border-radius: 0.5em;
+	-webkit-box-shadow : 0.2em 0.2em 0.3em black;
+	-moz-box-shadow:  0.2em 0.2em 0.3em black;
+	box-shadow:  0.2em 0.2em 0.3em black;
+	
+	text-shadow: 	1px 1px 2px rgb(255,255,0),
+					-1px -1px 2px rgb(255,255,0),
+					0px 0px 0px black;
+}
+
+ul.menu li button:hover
+{
+	background: #565642;
+	
+}
+
+ul.menu li button:active
+{
+	color:rgb(255,255,0);
+	background: rgb(30,40,0)
+}
+
+
+
+
+
+/*SMART PHONES*/
+@media only screen and (max-width: 480px) 
+{
+	#main-menu .logo
+	{
+		font-size:4em;
+	}
+	#gameWrap
+	{
+		margin:.5em;
+		width: 100%;
+	}
+	#game
+	{
+		width: 89%;
+		height: 93%;
+	}
+		ul.menu li button
+	{
+		font-size:2em;
+		width:7em;
+		height:2em;
+	}
+}
+
+/*IPAD SIZES/TABLETS*/
+@media only screen and (min-width: 481px) and (max-width: 979px)
+{
+	#main-menu .logo
+	{
+		font-size:5em;
+	}
+	#gameWrap
+	{
+		margin:1em;
+		width: 100%;
+	}
+	#game
+	{
+		width: 90%;
+		height: 90%;
+	}
+	ul.menu li button
+	{
+		width:7em;
+		height:1.5em;
+	}
+}
