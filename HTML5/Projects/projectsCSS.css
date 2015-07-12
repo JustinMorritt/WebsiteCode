@@ -124,3 +124,77 @@
 	margin-left:auto;
 	margin-right:auto;
 }
+
+.FamJ
+{
+	border: 1px #39B1C6 solid;
+	border-radius: 2em;
+	box-shadow: 14px 14px 7px black;
+	display: block;
+	background: url(../Pics/FJ.png);
+	background-size: 100% 100%;
+	width: 10em;
+	height:5em;
+	background-repeat: no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.PrisE
+{
+	border: 1px #39B1C6 solid;
+	border-radius: 2em;
+	box-shadow: 14px 14px 7px black;
+	display: block;
+	background: url(../Pics/PrisonE.png);
+	background-size: 100% 100%;
+	width: 10em;
+	height:10em;
+	background-repeat: no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+}
+.BvZ
+{
+	border: 1px #39B1C6 solid;
+	border-radius: 2em;
+	box-shadow: 14px 14px 7px black;
+	display: block;
+	background: url(../Pics/BVZLogo.png);
+	background-size: 100% 100%;
+	width: 10em;
+	height:5em;
+	background-repeat: no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.wakaTime
+{
+	border: 1px #39B1C6 solid;
+	border-radius: 2em;
+	box-shadow: 14px 14px 7px black;
+	display: block;
+	background: url(../Pics/wakaTime.png);
+	background-size: 100% 100%;
+	width: 10em;
+	height:10em;
+	background-repeat: no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.trafficCop
+{
+	border: 1px #39B1C6 solid;
+	border-radius: 2em;
+	box-shadow: 14px 14px 7px black;
+	display: block;
+	background: url(../Pics/trafficCop.png);
+	background-size: 100% 100%;
+	width: 6em;
+	height:10em;
+	background-repeat: no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+}
